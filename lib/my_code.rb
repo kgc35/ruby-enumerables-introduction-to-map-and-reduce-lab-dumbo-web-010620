@@ -56,3 +56,14 @@ def reduce_to_all_true(array)
     end
   end
 end
+
+def reduce_to_any_true(array)
+  num_elements = array.length
+  num_elements.times do |index|
+    if array[index]
+    return true
+      else
+    false
+    end
+  end
+end
