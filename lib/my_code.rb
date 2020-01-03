@@ -48,7 +48,6 @@ def map_to_square(array)
 
 def reduce_to_all_true(array)
   num_elements = array.length
-  total_sum = 0;
   num_elements.times do |index|
     if !array[index]
     return false
@@ -56,5 +55,3 @@ def reduce_to_all_true(array)
     true
   end
   end
-
-  total_sum
