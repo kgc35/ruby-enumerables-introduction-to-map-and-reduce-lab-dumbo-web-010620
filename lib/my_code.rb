@@ -44,6 +44,4 @@ def map_to_square(array)
     end
     total_sum += starting_point
     total_sum
-    end
-
-    new_array
+  end
