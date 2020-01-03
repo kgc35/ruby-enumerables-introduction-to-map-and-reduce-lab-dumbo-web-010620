@@ -66,5 +66,6 @@ def reduce_to_any_true(array)
       false
     end
   end
-  print false
 end
+
+print reduce_to_any_true([ false, nil, nil, nil])
