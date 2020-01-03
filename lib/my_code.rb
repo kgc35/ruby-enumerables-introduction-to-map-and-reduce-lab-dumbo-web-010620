@@ -51,7 +51,8 @@ def reduce_to_all_true(array)
   num_elements.times do |index|
     if !array[index]
     return false
-  else
+      else
     true
+    end
   end
-  end
+end
