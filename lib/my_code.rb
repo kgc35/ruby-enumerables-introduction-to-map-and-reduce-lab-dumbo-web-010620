@@ -56,5 +56,5 @@ def reduce_to_all_true(array)
     true
   end
   end
-  
+
   total_sum
