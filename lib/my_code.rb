@@ -61,9 +61,9 @@ def reduce_to_any_true(array)
   num_elements = array.length
   num_elements.times do |index|
     if array[index]
-    return true
-      else
-    false
+      return true
+    else
+      false
     end
   end
 end
