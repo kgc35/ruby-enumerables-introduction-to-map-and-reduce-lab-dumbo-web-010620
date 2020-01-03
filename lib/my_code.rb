@@ -68,4 +68,3 @@ def reduce_to_any_true(array)
   end
 end
 
-print reduce_to_any_true([ false, nil, nil, nil])
